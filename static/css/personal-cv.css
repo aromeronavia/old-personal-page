@@ -310,13 +310,13 @@ br {
 
 .contact-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 50px;
     background-color: rgb(23,45,21);
     color: #fff;
 }
 
 .about-section{
-    padding-top: 0px;
+    padding-top: 40px;
 }
 
 
@@ -326,17 +326,17 @@ br {
     }
 
     .about-section {
-        padding: 100px 0;
+        padding: 80px 0;
     }
 
     .download-section {
         padding: 100px 0;
     }
 
-    #map {
-        height: 400px;
-        margin-top: 250px;
+    .contact-section{
+        padding: 40px;
     }
+
 }
 
 .btn {
