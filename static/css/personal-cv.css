@@ -140,6 +140,11 @@ a:focus {
     }
 }
 
+#profile-image{
+    border-radius: 100%;
+    background-size: 20px 20px;
+}
+
 .intro {
     display: table;
     width: 100%;
