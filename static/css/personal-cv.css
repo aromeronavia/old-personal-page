@@ -417,3 +417,15 @@ body {
 #link-nokturnals {
     color: blue;
 }
+
+.titles {
+    background-color: #e9f0f5;
+}
+
+.titles h2{
+    margin-bottom: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #2F4F4F;
+    font-style: italic;
+}
