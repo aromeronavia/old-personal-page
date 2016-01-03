@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
-    background-color: #FFD;
+    background-color: #e9f0f5;
 }
 
 html {
@@ -417,17 +417,26 @@ body {
 
 .titles h2{
     margin-bottom: 0px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: #2F4F4F;
     font-style: italic;
 }
 
-#lightpainting-1 {
+#plant {
     height: 60%;
     width: 100%;
     background: fixed;
-    background-image: url(../img/plant.jpg);
+    background-image: url(../img/minerva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#lightpainting {
+    height: 60%;
+    width: 100%;
+    background: fixed;
+    background-image: url(../img/gdl.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 

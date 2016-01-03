@@ -54,7 +54,7 @@ header h1 {
   font-size: 1.125rem;
 }
 
-#cd-timeline {
+.cd-timeline {
   position: relative;
   padding: 2em 0;
   /*margin-top: 2em;*/
@@ -64,7 +64,7 @@ header h1 {
   font-size: 20px;
 
 }
-#cd-timeline::before {
+.cd-timeline::before {
   /* this is the vertical line */
   content: '';
   position: absolute;
@@ -75,14 +75,14 @@ header h1 {
   background: #d7e4ed;
 }
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
+  .cd-timeline {
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 3em;
     padding-top: 3em;
   }
-  #cd-timeline::before {
+  .cd-timeline::before {
     left: 50%;
     margin-left: -2px;
   }
@@ -129,11 +129,11 @@ header h1 {
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   position: relative;
-  left: 50%;
-  top: 50%;
+  left: 34%;
+  top: 32%;
   margin-left: -12px;
   margin-top: -12px;
 }
@@ -277,7 +277,7 @@ header h1 {
     font-size: 20px;
   }
   .cd-timeline-content p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 18px;
