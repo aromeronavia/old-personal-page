@@ -104,7 +104,8 @@ header h1 {
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
     font-size: 20px;
@@ -244,6 +245,7 @@ header h1 {
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  font-size: 14px;
 }
 .cd-timeline-content .cd-read-more {
   float: right;

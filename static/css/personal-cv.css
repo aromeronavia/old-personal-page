@@ -297,17 +297,6 @@ br {
     padding-top: 0px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 .contact-section{
     width: 100%;
@@ -318,6 +307,10 @@ br {
 
 .about-section{
     padding-top: 0px;
+}
+
+.about-section h2 {
+    margin-top: 35px;
 }
 
 
@@ -428,4 +421,14 @@ body {
     padding-bottom: 35px;
     color: #2F4F4F;
     font-style: italic;
+}
+
+#lightpainting-1 {
+    height: 60%;
+    width: 100%;
+    background: fixed;
+    background-image: url(../img/plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
