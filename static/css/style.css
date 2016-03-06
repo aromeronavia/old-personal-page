@@ -136,6 +136,7 @@ header h1 {
   top: 32%;
   margin-left: -12px;
   margin-top: -12px;
+  border-radius: 100%;
 }
 .cd-timeline-img.cd-picture {
   background: white;
@@ -250,7 +251,7 @@ header h1 {
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: #025f33;
   color: white;
   border-radius: 0.25em;
 }
@@ -333,6 +334,26 @@ header h1 {
     -moz-animation: cd-bounce-2 0.6s;
     animation: cd-bounce-2 0.6s;
   }
+}
+
+.voxfeed-header img {
+  height: 50px;
+  width: 150px;
+}
+
+.hp-header img {
+  height: 70px;
+  width: 300px;
+}
+
+.iteso-header img {
+  height: 100px;
+  width: 250px;
+}
+
+.intel-header img {
+  height: 60px;
+  width: 110px;
 }
 
 @media only screen and (min-width: 1170px) {
